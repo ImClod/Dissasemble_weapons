@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/ImClod/dismount_weapons">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://yt3.ggpht.com/ytc/AAUvwnimgX580pb_DlxH-g4TOLlemWw3pJUsfOXEgld7pA" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Dismount Weapons System</h3>
