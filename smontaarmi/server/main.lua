@@ -4,7 +4,7 @@ local version = GetResourceMetadata('es_extended','version',GetNumResourceMetada
 AddEventHandler('onResourceStart',function(resName)
     if resName==GetCurrentResourceName() then
         if version ~= nil then
-            if version == 'legacy' or version == '1.2' or version =='1.final' then
+            if version == 'legacy' or version =='1.final' or version '1.2.0' then
                 print('^1[ Smontaarmi ] ^0 Made by ImClod#0001 Correct ESX version')
                 print('^1[ SmontaArmi ]^0 Inizializing items')
                 local i = 0
