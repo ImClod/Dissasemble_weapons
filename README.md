@@ -1,37 +1,137 @@
-## Welcome to GitHub Pages
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/ImClod/dismount_weapons">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-You can use the [editor on GitHub](https://github.com/ImClod/dismount_weapons/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+  <h3 align="center">Dismount Weapons System</h3>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  <p align="center">
+    This resource allows you to unmount your weapons and turn them into multiple pieces such as the bullets, the add-ons & the unmounted weapon.
+    <br />
+    <a href="https://github.com/ImClod/dismount_weapon">View Demo</a>
+    ·
+    <a href="https://github.com/ImClod/dismount_weapon/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/ImClod/dismount_weapon/issues">Request Feature</a>
+  </p>
+</p>
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contacts">Contacts</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#precautions">Precautions</a></li>
+  </ol>
+</details>
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-**Bold** and _Italic_ and `Code` text
+[Showcase Video](https://fenixhub.dev/)
 
-[Link](url) and ![Image](src)
+
+### Built With
+
+* []() FiveM Lua (Lua. 5.3)
+
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+Make sure you have the latest FiveM server artifacts.
+
+### Prerequisites
+
+Make sure you have the latest version of ESX or alternately use ESX Legacy. 
+* ESX 1.2 Final
+  ```sh
+  https://github.com/esx-framework/es_extended/tree/v1-final
+  ```
+* or 
+
+* ESX Legacy
+  ```sh
+  https://github.com/esx-framework/es_extended/tree/legacy
+  ```
+
+
+
+
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/ImClod/dismount_weapon.git
+   ```
+2. Drag & Drop the folder into your server-data/resources folder.
+  
+3. Open your server/resources.cfg and add the following string somewhere under ```start es_extended```
+   ```sh
+   start dismount_weapon
+   ```
+4. Go into Config of the script and add your weapons in Config.Weapons, here's an example
+```sh
+  WEAPON_PISTOL * weapon name* = {
+        item = 'pistola' *the item gives you when dismounting the weapon
+    },
 ```
+5. Save the changes and restart the server.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ImClod/dismount_weapons/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<!-- LICENSE -->
+## License
 
-### Support or Contact
+Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+<!-- CONTACTS -->
+## Contacts
+
+[Discord Server](https://discord.gg/27geSnfWmt)
+
+[Website](https://fenixhub.dev/)
+
+Private Discord Contact - ImClod#0001
+
+Project Link: [https://github.com/ImClod/dismount_weapon](https://github.com/ImClod/dismount_weapon)
+
+
+
+<!-- Precautions -->
+## Precautions
+
+* []() The following script has been tested on the PlumeESX Base server, see -> (https://forum.cfx.re/t/recipe-plumeesx-full-base-2021/1964029)
+* []() Looking for integrate the script into a menu? Very simple ->  ``` TriggerEvent(apriMenuSmonta) ```
+* []() Made sure you install the sql provided
+<!-- Acknowledgements -->
+## Acknowledgements
+
+* []() Special thanks to MaXxaM#0511 for his project callbacks (https://github.com/MaXxaM2611)
+
+
