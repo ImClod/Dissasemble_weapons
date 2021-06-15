@@ -10,7 +10,7 @@
   <p align="center">
     This resource allows you to unmount your weapons and turn them into multiple pieces such as the bullets, the add-ons & the unmounted weapon.
     <br />
-    <a href="https://github.com/ImClod/dismount_weapon">View Demo</a>
+    <a href="https://youtu.be/fewSvX17Pt8">View Demo</a>
     ·
     <a href="https://github.com/ImClod/dismount_weapon/issues">Report Bug</a>
     ·
@@ -48,7 +48,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[Showcase Video](https://fenixhub.dev/)
+[Showcase Video](https://youtu.be/fewSvX17Pt8)
 
 
 ### Built With
