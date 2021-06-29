@@ -33,7 +33,7 @@ end)
 ESX.RegisterServerCallback('requestPlayerLoadout', function(source,cb)
     local elements = {} 
     local xPlayer = ESX.GetPlayerFromId(source)
-    if version and version == 'legacy' or version == '1.2' or version =='1.final' then
+    if version and version == 'legacy' or version == '1.2.0' or version =='1.final' then
         if xPlayer then
             if Config.KRZ then
                 cb(xPlayer.loadout)
